@@ -1,0 +1,39 @@
+.nav{
+    width: 25vh;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    transform: translate(-250px);
+    position: relative;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 35%;
+}
+li{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50%;
+    font-size: 30px;
+}
+.icon{
+    margin-right: 3%;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
+
+button{
+    transition: 1s;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 10%;
+}
+
+
